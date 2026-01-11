@@ -37,9 +37,9 @@ quality = st.number_input('value of quality ', value = None)
 
 if st.button('Predict'):
   input_data = np.array([[
-      fixed acidity,
-      volatile acidity,
-      citric acid,
+      fixed_acidity,
+      volatile_acidity,
+      citric_acid,
       residual sugar,
       chlorides,
       free_sulfur_dioxide,
