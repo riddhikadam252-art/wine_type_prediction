@@ -40,7 +40,7 @@ if st.button('Predict'):
       fixed_acidity,
       volatile_acidity,
       citric_acid,
-      residual sugar,
+      residual_sugar,
       chlorides,
       free_sulfur_dioxide,
       total_sulfur_dioxide,
