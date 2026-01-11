@@ -52,10 +52,10 @@ if st.button('Predict'):
 
   ]])
   prediction = model.predict(input_data)[0]
-  if prediction == 1:
-    st.write('The wine is Red')
+  if prediction == 0:
+    st.success('The wine is Red')
   else:
-    st.write('The wine is White')
+    st.success('The wine is White')
 
 
 
